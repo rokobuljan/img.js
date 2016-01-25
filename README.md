@@ -35,6 +35,6 @@ Hello World! // Costom text
 **Example:**  
 
 ```html
-<img data-imgjs="200x150/f00/fff&text=Hi there!">
+<img data-imgjs="200x150/f00/fff&amp;text=Hi there!">
 ````
 ---
