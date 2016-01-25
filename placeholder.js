@@ -1,19 +1,20 @@
 (function placeholder() {
 	var img = document.querySelectorAll("img[src^='img.js'], [data-imgjs]");
-	if(!!img.length) {
+	if (!!img.length) {
 		var	canvas = document.createElement('canvas'), // In memory canvas
-		ctx = canvas.getContext("2d");
-		for(var i=0; i<img.length; i++){
+			ctx = canvas.getContext("2d");
+		for(var i=0; i<img.length; i++) {
 			var im = img[i],
 				hasData = !!im.dataset.imgjs,
 				src = im.src || im.dataset.imgjs;
 			src = decodeURIComponent( src );
-			var _src = hasData ? "/"+src : src.split("img.js")[1];
-			var pt = _src.split("&")[0].split('/'),
-			_size = pt[1].split("x"),
-			size = {w:_size[0], h:(_size[1]||_size[0])},
-			txt = src.split("&text=")[1]||size.w+'×'+size.h,
-			fontSize = ~~(size.w / txt.length);
+			var _src = hasData ? "/"+src : src.split("img.js")[1],
+				pt = _src.split("&")[0].split('/'),
+				_size = pt[1].split("x"),
+				size = {w:_size[0], h:(_size[1]||_size[0])},
+				txt = src.split("&text=")[1]||size.w+'×'+size.h,
+				fontSize = ~~(size.w / txt.length);
+
 			canvas.width  = im.width  = size.w;
 			canvas.height = im.height = size.h;
 			// BG
