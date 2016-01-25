@@ -25,7 +25,7 @@ You can pass additional parameters to handle the **image size**, **background co
 (Info: Detault background color is `#ddd` and text is translucent white. You can only use HEX colors value:)
 **Values:**  
 ```
-200x150      // Desired width x height
+200x150      // Desired width, height (height is optional; width value will be used instead)
 /            // Delimiter
 ff0000       // Background color HEX value (6 or 3) (Default: "ddd")
 /            // Delimiter
