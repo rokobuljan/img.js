@@ -1,4 +1,4 @@
-# placeholder.js
+# img.js Easy Image Placeholders
 IMG placeholder utility
 placeholder.js creates placeholder images for your template.
 
