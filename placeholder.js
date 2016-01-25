@@ -7,7 +7,6 @@
 			var im = img[i],
 				hasData = !!im.dataset.imgjs,
 				src = im.src || im.dataset.imgjs;
-			//if(src.match(/img.js/)){
 				src = decodeURIComponent( src );
 				var _src = hasData ? "/"+src : src.split("img.js")[1];
 				var pt = _src.split("&")[0].split('/'),
@@ -29,7 +28,6 @@
 				im.width = size.w;
 				im.height = size.h;
 				im.src = canvas.toDataURL();
-			//}
 		}
 	}
 }());
