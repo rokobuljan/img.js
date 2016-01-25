@@ -38,10 +38,14 @@ Hello World! // Custom text
 
 ```html
 <img src="img.js/200x150/f00/fff?text=Hi there!">
-````
+```
+
 **Example 2 Using `data-imgjs` attribute:**  
 
 ```html
 <img data-imgjs="200x150/f00/fff?text=Hi there!">
-````
+```
+
+Find more examples in index.html
+
 ---
