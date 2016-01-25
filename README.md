@@ -31,17 +31,17 @@ You can pass additional parameters to handle the **image size**, **background co
 ff0000       // Background color HEX value (6 or 3) (Default: "ddd")
 /            // Delimiter
 00ff00       // Text Color
-&text=       // Custom text delimiter
+?text=       // Custom text delimiter
 Hello World! // Custom text
 ```
 **Example 1 Using `src` attribute:**  
 
 ```html
-<img src="img.js/200x150/f00/fff&amp;text=Hi there!">
+<img src="img.js/200x150/f00/fff?text=Hi there!">
 ````
 **Example 2 Using `data-imgjs` attribute:**  
 
 ```html
-<img data-imgjs="200x150/f00/fff&amp;text=Hi there!">
+<img data-imgjs="200x150/f00/fff?text=Hi there!">
 ````
 ---
