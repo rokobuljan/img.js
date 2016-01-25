@@ -1,4 +1,4 @@
-(function placeholder() {
+;(function imgjs() {
 	var img = document.querySelectorAll("img[src^='img.js'], [data-imgjs]");
 	if (!img) return;
 	var canvas = document.createElement('canvas'), // In memory canvas
