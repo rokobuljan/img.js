@@ -5,7 +5,7 @@ placeholder.js creates placeholder images for your template.
 ![placeholder.js Placeholder images using canvas](http://i.imgur.com/fYCYFxf.png)
 ---
 
-Insert **placeholder.js** in your document:
+Insert **placeholder.js** in your document befoe the closing `</body>` tag:
 
 ```html
 <script src="placeholder.js"></script>
