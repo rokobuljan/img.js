@@ -5,13 +5,13 @@ placeholder.js creates placeholder images for your template.
 ![placeholder.js Placeholder images using canvas](http://i.imgur.com/fYCYFxf.png)
 ---
 
-Insert placeholder.js in your document:
+Insert **placeholder.js** in your document:
 
 ```html
 <script src="placeholder.js"></script>
 ```
 
-Inside your HTML use a standard `<img>` tag like:
+Inside your **HTML** use a standard `<img>` tag like:
 ```html
 <img src="img.js/200x150">
 ````
@@ -20,7 +20,7 @@ To prevent **404 errors** in console you can use the `data-imgjs` attribute inst
 ```html
 <img data-imgjs="200x150">
 ````
-
+###Customization Options
 You can pass additional parameters to handle the **image size**, **background color** and **text color**  
 (Info: Detault background color is `#ddd` and text is opaque white. You can only use HEX colors value:)
 **Values:**  
@@ -33,7 +33,7 @@ ff0000       // Background color HEX value (6 or 3) (Default: "ddd")
 &text=       // Custom text delimiter
 Hello World! // Costom text
 ```
-**Example**  
+**Example:**  
 
 ```html
 <img data-imgjs="200x150/f00/fff&text=Hi there!">
