@@ -1,2 +1,2 @@
 # placeholder.js
-Canvas IMG placeolder utility
+Canvas IMG placeholder utility
