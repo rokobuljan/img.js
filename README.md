@@ -16,7 +16,7 @@ Inside your HTML use a standard `<img>` tag like:
 <img src="img.js/200x150">
 ````
 
-To prevent 404 errors in console you can use the `data-imgjs` attribute instead
+To prevent **404 errors** in console you can use the `data-imgjs` attribute instead
 ```html
 <img data-imgjs="200x150">
 ````
