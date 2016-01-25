@@ -30,7 +30,7 @@ You can pass additional parameters to handle the **image size**, **background co
 ff0000       // Background color HEX value (6 or 3) (Default: "ddd")
 /            // Delimiter
 00ff00       // Text Color (Defalt: "rgba(255,255,255,0.7)")
-/&text=      // Custom text delimiter
+&text=       // Custom text delimiter
 Hello World! // Costom text
 ```
 **Example**  
