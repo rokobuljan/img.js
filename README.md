@@ -11,13 +11,15 @@ a **JavaScript** utility that helps you easily add placeholder images to your pr
 ```
 **2.** Inside your **HTML** use a standard `<img>` tag like:
 ```html
-<img src="img.js/200x150">
+<img src="img.js">
 ````
 
 To prevent **404 errors** in console you can use the `data-imgjs` attribute instead
 ```html
-<img data-imgjs="200x150">
+<img data-imgjs>
 ````
+
+(Both the examples above will create a 356x200 gray default placeholder)
 
 ###Customization Options
 You can pass additional parameters to handle the **image size**, **background color** and **text color**  
@@ -25,14 +27,19 @@ You can pass additional parameters to handle the **image size**, **background co
 **Values:**  
 ```
 200x150      // Desired width, height (height is optional; width value will be used instead)
-/            // Delimiter
+/            // Delimiter (Note: in order to use colors, at least a width must be provided)
 ff0000       // Background color HEX value (6 or 3) (Default: "ddd")
 /            // Delimiter
 00ff00       // Text Color
 &text=       // Custom text delimiter
 Hello World! // Custom text
 ```
-**Example:**  
+**Example 1 Using `src` attribute:**  
+
+```html
+<img src="img.js/200x150/f00/fff&amp;text=Hi there!">
+````
+**Example 2 Using `data-imgjs` attribute:**  
 
 ```html
 <img data-imgjs="200x150/f00/fff&amp;text=Hi there!">
