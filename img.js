@@ -6,7 +6,7 @@
 		ctx = canvas.getContext("2d");
 	for(var i=0; i<img.length; i++) {
 		var im = img[i],
-			src = (decodeURIComponent(im.src) || im.dataset.imgjs)
+			src = (decodeURIComponent(im.src) || im.getAttribute("data-imgjs"))
 					.replace(/^.*img.js\/?(.*)$/, "$1"),
 			pt = src.split("?")[0].split('/'),
 			_size = pt[0].split("x"),
