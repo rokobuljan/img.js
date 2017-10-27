@@ -1,7 +1,7 @@
 # img.js
 ### Image Placeholders in a snap!  
 
-[Live demo on jsBin.com](http://jsbin.com/boriju/1/edit?output)  
+[Live demo on jsBin.com](http://jsbin.com/boriju/2/edit?output)  
 
 a **JavaScript** utility that helps you easily add placeholder images to your project
 
