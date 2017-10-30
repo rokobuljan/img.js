@@ -1,0 +1,26 @@
+{
+  "name": "imgjs",
+  "version": "0.0.0",
+  "description": "Placeholder images generator",
+  "main": "img.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokobuljan/img.js.git"
+  },
+  "keywords": [
+    "js",
+    "images",
+    "placeholder",
+    "canvas",
+    "generator"
+  ],
+  "author": "Roko C. Buljan <roko.cb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rokobuljan/img.js/issues"
+  },
+  "homepage": "https://github.com/rokobuljan/img.js#readme"
+}
